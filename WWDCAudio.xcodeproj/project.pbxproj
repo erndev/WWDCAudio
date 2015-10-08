@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		942A7FAD1BC470CD00ECC0D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 942A7FAC1BC470CD00ECC0D3 /* AppDelegate.m */; };
+		942A7FB01BC470CD00ECC0D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 942A7FAF1BC470CD00ECC0D3 /* main.m */; };
+		942A7FB21BC470CD00ECC0D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942A7FB11BC470CD00ECC0D3 /* Assets.xcassets */; };
+		942A7FB51BC470CD00ECC0D3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942A7FB31BC470CD00ECC0D3 /* MainMenu.xib */; };
+		942A7FC71BC4739E00ECC0D3 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942A7FC51BC4739E00ECC0D3 /* MainWindowController.m */; settings = {ASSET_TAGS = (); }; };
+		942A7FC81BC4739E00ECC0D3 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942A7FC61BC4739E00ECC0D3 /* MainWindowController.xib */; settings = {ASSET_TAGS = (); }; };
+		942A7FCB1BC4760D00ECC0D3 /* AudioExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 942A7FCA1BC4760D00ECC0D3 /* AudioExporter.m */; settings = {ASSET_TAGS = (); }; };
+		942C69571BC5165E00BC970B /* SessionsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 942C69561BC5165E00BC970B /* SessionsManager.m */; settings = {ASSET_TAGS = (); }; };
+		942C695A1BC5242100BC970B /* SessionsValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 942C69591BC5242100BC970B /* SessionsValueTransformer.m */; settings = {ASSET_TAGS = (); }; };
+		942C695D1BC5248A00BC970B /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 942C695C1BC5248A00BC970B /* Session.m */; settings = {ASSET_TAGS = (); }; };
+		942C69601BC5297A00BC970B /* NSString+Words.m in Sources */ = {isa = PBXBuildFile; fileRef = 942C695F1BC5297A00BC970B /* NSString+Words.m */; settings = {ASSET_TAGS = (); }; };
+		942C69641BC53A9A00BC970B /* SessionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942C69621BC53A9A00BC970B /* SessionListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		942C69651BC53A9A00BC970B /* SessionListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942C69631BC53A9A00BC970B /* SessionListViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		942C69681BC5405A00BC970B /* SessionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 942C69671BC5405A00BC970B /* SessionCell.m */; settings = {ASSET_TAGS = (); }; };
+		94B3E6AD1BC64C450040E066 /* AudioExportManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B3E6AC1BC64C450040E066 /* AudioExportManager.m */; settings = {ASSET_TAGS = (); }; };
+		94B3E6B01BC658830040E066 /* GroupedSessionsValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B3E6AF1BC658830040E066 /* GroupedSessionsValueTransformer.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		942A7FA81BC470CD00ECC0D3 /* WWDCAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDCAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		942A7FAB1BC470CD00ECC0D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		942A7FAC1BC470CD00ECC0D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		942A7FAF1BC470CD00ECC0D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		942A7FB11BC470CD00ECC0D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		942A7FB41BC470CD00ECC0D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		942A7FB61BC470CD00ECC0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		942A7FC41BC4739E00ECC0D3 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainWindowController.h; path = WWDCAudio/MainWindowController.h; sourceTree = "<group>"; };
+		942A7FC51BC4739E00ECC0D3 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainWindowController.m; path = WWDCAudio/MainWindowController.m; sourceTree = "<group>"; };
+		942A7FC61BC4739E00ECC0D3 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		942A7FC91BC4760D00ECC0D3 /* AudioExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioExporter.h; sourceTree = "<group>"; };
+		942A7FCA1BC4760D00ECC0D3 /* AudioExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioExporter.m; sourceTree = "<group>"; };
+		942C69551BC5165E00BC970B /* SessionsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionsManager.h; sourceTree = "<group>"; };
+		942C69561BC5165E00BC970B /* SessionsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionsManager.m; sourceTree = "<group>"; };
+		942C69581BC5242100BC970B /* SessionsValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionsValueTransformer.h; sourceTree = "<group>"; };
+		942C69591BC5242100BC970B /* SessionsValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionsValueTransformer.m; sourceTree = "<group>"; };
+		942C695B1BC5248A00BC970B /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		942C695C1BC5248A00BC970B /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
+		942C695E1BC5297A00BC970B /* NSString+Words.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Words.h"; sourceTree = "<group>"; };
+		942C695F1BC5297A00BC970B /* NSString+Words.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Words.m"; sourceTree = "<group>"; };
+		942C69611BC53A9A00BC970B /* SessionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SessionListViewController.h; path = WWDCAudio/SessionListViewController.h; sourceTree = "<group>"; };
+		942C69621BC53A9A00BC970B /* SessionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SessionListViewController.m; path = WWDCAudio/SessionListViewController.m; sourceTree = "<group>"; };
+		942C69631BC53A9A00BC970B /* SessionListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SessionListViewController.xib; sourceTree = "<group>"; };
+		942C69661BC5405A00BC970B /* SessionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionCell.h; sourceTree = "<group>"; };
+		942C69671BC5405A00BC970B /* SessionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionCell.m; sourceTree = "<group>"; };
+		94B3E6AB1BC64C450040E066 /* AudioExportManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioExportManager.h; sourceTree = "<group>"; };
+		94B3E6AC1BC64C450040E066 /* AudioExportManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioExportManager.m; sourceTree = "<group>"; };
+		94B3E6AE1BC658830040E066 /* GroupedSessionsValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupedSessionsValueTransformer.h; sourceTree = "<group>"; };
+		94B3E6AF1BC658830040E066 /* GroupedSessionsValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupedSessionsValueTransformer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		942A7FA51BC470CD00ECC0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		942A7F9F1BC470CD00ECC0D3 = {
+			isa = PBXGroup;
+			children = (
+				942A7FAA1BC470CD00ECC0D3 /* WWDCAudio */,
+				942A7FA91BC470CD00ECC0D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		942A7FA91BC470CD00ECC0D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				942A7FA81BC470CD00ECC0D3 /* WWDCAudio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		942A7FAA1BC470CD00ECC0D3 /* WWDCAudio */ = {
+			isa = PBXGroup;
+			children = (
+				94B3E6B21BC65A020040E066 /* Audio */,
+				94B3E6B61BC65A670040E066 /* Model */,
+				94B3E6B51BC65A480040E066 /* Utils */,
+				94B3E6B11BC659DB0040E066 /* View & Window Controllers */,
+				94B3E6B31BC65A190040E066 /* Cells */,
+				942A7FC31BC4738500ECC0D3 /* Resources */,
+				942A7FAB1BC470CD00ECC0D3 /* AppDelegate.h */,
+				942A7FAC1BC470CD00ECC0D3 /* AppDelegate.m */,
+				942A7FB61BC470CD00ECC0D3 /* Info.plist */,
+				942A7FAE1BC470CD00ECC0D3 /* Supporting Files */,
+			);
+			path = WWDCAudio;
+			sourceTree = "<group>";
+		};
+		942A7FAE1BC470CD00ECC0D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				942A7FAF1BC470CD00ECC0D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		942A7FC31BC4738500ECC0D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				942A7FB11BC470CD00ECC0D3 /* Assets.xcassets */,
+				942C69631BC53A9A00BC970B /* SessionListViewController.xib */,
+				942A7FB31BC470CD00ECC0D3 /* MainMenu.xib */,
+				942A7FC61BC4739E00ECC0D3 /* MainWindowController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		94B3E6B11BC659DB0040E066 /* View & Window Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				942C69611BC53A9A00BC970B /* SessionListViewController.h */,
+				942C69621BC53A9A00BC970B /* SessionListViewController.m */,
+				942A7FC41BC4739E00ECC0D3 /* MainWindowController.h */,
+				942A7FC51BC4739E00ECC0D3 /* MainWindowController.m */,
+			);
+			name = "View & Window Controllers";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		94B3E6B21BC65A020040E066 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				942A7FC91BC4760D00ECC0D3 /* AudioExporter.h */,
+				942A7FCA1BC4760D00ECC0D3 /* AudioExporter.m */,
+				94B3E6AB1BC64C450040E066 /* AudioExportManager.h */,
+				94B3E6AC1BC64C450040E066 /* AudioExportManager.m */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		94B3E6B31BC65A190040E066 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				942C69661BC5405A00BC970B /* SessionCell.h */,
+				942C69671BC5405A00BC970B /* SessionCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		94B3E6B41BC65A2E0040E066 /* Value Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				942C69581BC5242100BC970B /* SessionsValueTransformer.h */,
+				942C69591BC5242100BC970B /* SessionsValueTransformer.m */,
+				94B3E6AE1BC658830040E066 /* GroupedSessionsValueTransformer.h */,
+				94B3E6AF1BC658830040E066 /* GroupedSessionsValueTransformer.m */,
+			);
+			name = "Value Transformers";
+			sourceTree = "<group>";
+		};
+		94B3E6B51BC65A480040E066 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				942C695E1BC5297A00BC970B /* NSString+Words.h */,
+				942C695F1BC5297A00BC970B /* NSString+Words.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		94B3E6B61BC65A670040E066 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				94B3E6B41BC65A2E0040E066 /* Value Transformers */,
+				942C69551BC5165E00BC970B /* SessionsManager.h */,
+				942C69561BC5165E00BC970B /* SessionsManager.m */,
+				942C695B1BC5248A00BC970B /* Session.h */,
+				942C695C1BC5248A00BC970B /* Session.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		942A7FA71BC470CD00ECC0D3 /* WWDCAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942A7FB91BC470CD00ECC0D3 /* Build configuration list for PBXNativeTarget "WWDCAudio" */;
+			buildPhases = (
+				942A7FA41BC470CD00ECC0D3 /* Sources */,
+				942A7FA51BC470CD00ECC0D3 /* Frameworks */,
+				942A7FA61BC470CD00ECC0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWDCAudio;
+			productName = WWDCAudio;
+			productReference = 942A7FA81BC470CD00ECC0D3 /* WWDCAudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		942A7FA01BC470CD00ECC0D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = cocoawithchurros;
+				TargetAttributes = {
+					942A7FA71BC470CD00ECC0D3 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 942A7FA31BC470CD00ECC0D3 /* Build configuration list for PBXProject "WWDCAudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 942A7F9F1BC470CD00ECC0D3;
+			productRefGroup = 942A7FA91BC470CD00ECC0D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				942A7FA71BC470CD00ECC0D3 /* WWDCAudio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		942A7FA61BC470CD00ECC0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942A7FB21BC470CD00ECC0D3 /* Assets.xcassets in Resources */,
+				942C69651BC53A9A00BC970B /* SessionListViewController.xib in Resources */,
+				942A7FC81BC4739E00ECC0D3 /* MainWindowController.xib in Resources */,
+				942A7FB51BC470CD00ECC0D3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		942A7FA41BC470CD00ECC0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942A7FB01BC470CD00ECC0D3 /* main.m in Sources */,
+				942C69571BC5165E00BC970B /* SessionsManager.m in Sources */,
+				942C695A1BC5242100BC970B /* SessionsValueTransformer.m in Sources */,
+				94B3E6AD1BC64C450040E066 /* AudioExportManager.m in Sources */,
+				942C69641BC53A9A00BC970B /* SessionListViewController.m in Sources */,
+				942A7FCB1BC4760D00ECC0D3 /* AudioExporter.m in Sources */,
+				942A7FC71BC4739E00ECC0D3 /* MainWindowController.m in Sources */,
+				942C69601BC5297A00BC970B /* NSString+Words.m in Sources */,
+				942A7FAD1BC470CD00ECC0D3 /* AppDelegate.m in Sources */,
+				942C69681BC5405A00BC970B /* SessionCell.m in Sources */,
+				942C695D1BC5248A00BC970B /* Session.m in Sources */,
+				94B3E6B01BC658830040E066 /* GroupedSessionsValueTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		942A7FB31BC470CD00ECC0D3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942A7FB41BC470CD00ECC0D3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		942A7FB71BC470CD00ECC0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		942A7FB81BC470CD00ECC0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		942A7FBA1BC470CD00ECC0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WWDCAudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoawithchurros.WWDCAudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		942A7FBB1BC470CD00ECC0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WWDCAudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoawithchurros.WWDCAudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		942A7FA31BC470CD00ECC0D3 /* Build configuration list for PBXProject "WWDCAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942A7FB71BC470CD00ECC0D3 /* Debug */,
+				942A7FB81BC470CD00ECC0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942A7FB91BC470CD00ECC0D3 /* Build configuration list for PBXNativeTarget "WWDCAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942A7FBA1BC470CD00ECC0D3 /* Debug */,
+				942A7FBB1BC470CD00ECC0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 942A7FA01BC470CD00ECC0D3 /* Project object */;
+}
